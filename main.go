@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"os"
 
-	source "github.com/greenmato/news-summarizer/pkg"
 	"github.com/greenmato/news-summarizer/pkg/article"
+	"github.com/greenmato/news-summarizer/pkg/source"
 )
 
 func main() {
