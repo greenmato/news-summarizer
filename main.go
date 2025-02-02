@@ -17,14 +17,6 @@ func main() {
 	flag.IntVar(&month, "month", 1, "Month")
 	flag.IntVar(&year, "year", 2025, "Year")
 
-	// Add help text
-	flag.Usage = func() {
-		fmt.Fprintf(os.Stderr, "Usage of %s:\n", os.Args[0])
-		fmt.Fprintf(os.Stderr, "\nA simple greeting CLI tool that demonstrates basic Go CLI functionality.\n\n")
-		fmt.Fprintf(os.Stderr, "Options:\n")
-		flag.PrintDefaults()
-	}
-
 	// Parse command-line flags
 	flag.Parse()
 
