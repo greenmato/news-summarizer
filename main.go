@@ -3,7 +3,6 @@ package main
 import (
 	"flag"
 	"fmt"
-	"os"
 
 	"github.com/greenmato/news-summarizer/pkg/article"
 	"github.com/greenmato/news-summarizer/pkg/source"
